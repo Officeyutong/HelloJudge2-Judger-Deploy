@@ -1,6 +1,6 @@
 apt update
 apt upgrade -y
-apt install -y docker.io git libboost-python-dev python3 python3-pip g++
+apt install -y docker.io git libboost-python-dev python3 python3-pip g++ python3.8-dev
 git clone https://github.com/Officeyutong/HelloJudge2-Judger
 cd HelloJudge2-Judger
 cd watcher
